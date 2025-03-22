@@ -1,0 +1,13 @@
+# Игнорировать большие файлы изображений
+public/images/DSCF*_100Mp.jpg
+public/images/DSCF*_100Mp (2).jpg
+public/videos/
+
+# Игнорировать ненужные папки
+node_modules/
+.next/
+out/
+
+# Игнорировать временные файлы
+.DS_Store
+*.log
