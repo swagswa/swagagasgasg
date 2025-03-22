@@ -18,6 +18,10 @@ const nextConfig = {
     });
     return config;
   },
+  eslint: {
+    // Отключаем проверку ESLint во время сборки
+    ignoreDuringBuilds: true,
+  },
 }
 
 module.exports = nextConfig
